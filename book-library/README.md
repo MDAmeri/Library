@@ -1,16 +1,58 @@
-# React + Vite
+# 📚 Digital Library App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, fast, and user-friendly web application for managing and exploring books, built with **React** and **Vite**. This project allows users to search for books, view their details, and build a customized personal collection.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **🔍 Live Search & Filtering:** Real-time filtering of books as you type keywords in the search bar.
+- **❤️ Personal Collection:** Seamlessly add your favorite books to a personal collection or remove them whenever you want.
+- **📖 Book Details:** A dedicated section for each book to read its full description and details.
+- **💾 LocalStorage Persistence:** The personal collection data is securely saved in the browser's LocalStorage, keeping your list intact even after a page refresh.
+- **📱 Responsive Design:** Fully optimized layout ensuring a smooth user experience across mobile, tablet, and desktop devices.
+- **🧭 Intuitive Navigation:** A clean navigation bar to switch between the main library and the personal collection easily.
 
-## React Compiler
+## 🛠 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React.js (via Vite), JavaScript (ES6+)
+- **Styling:** HTML5 & Vanilla CSS3 (Custom styles without external UI libraries)
+- **State Management & Data:** React Hooks & Browser LocalStorage API
 
-## Expanding the Oxlint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/MDAmeri/Library.git
+```
+
+2. Navigate to the project directory:
+
+```Bash
+cd Library/book-library
+```
+
+3. Install the dependencies:
+
+```Bash
+npm install
+```
+
+4. Start the development server:
+
+```Bash
+npm run dev
+```
+
+5. Open your browser and visit http://localhost:5173.
+
+## 👤 Author
+
+Developed by **Mohammad Ameri** - [@MDAmeri](https://github.com/MDAmeri)
